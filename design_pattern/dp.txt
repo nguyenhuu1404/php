@@ -1,0 +1,11 @@
+﻿Singleton Pattern:
+Là pattern được sử dụng để tạo sự ràng buộc, chỉ cho phép với class nào đó chỉ có duy nhất 1 đối tượng được khởi tạo mà thôi. Và để làm được điều đó, ta phải sử dụng 1 số kỹ thuật nhằm khóa và không cho phép đối tượng được phép khởi tạo trực tiếp. 
+
+Strategy Pattern
+Nhiệm vụ của nó là tạo ra những đóng gói xử lý riêng biệt thông qua từng class. Và từ đó bạn có thể hoán đổi mọi thứ tùy theo hoàn cảnh và yêu cầu công việc diễn ra.
+
+Method Factory Pattern
+Đây là pattern hỗ trợ chúng ta trong việc xử lý các thao tác tạo đối tượng, mà chúng ta chưa biết lớp nào sẽ thực thi công việc này. Với cách xử lý này ta có thể biến đổi mã nguồn theo hướng linh hoạt và dễ mở rộng hơn rất nhiều trong thực tế.
+
+Game Online:
+1 số rank: warrior, bishop , ninja, samurai,...
