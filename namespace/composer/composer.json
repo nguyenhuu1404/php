@@ -1,0 +1,21 @@
+{
+	"name":"qhonline/demo",
+	"description":"mot thu vien quan trong trong ung dung",
+	"keyword":["php baic","php advance","codeigniter","laravel"],
+	"homepage":"http://www.qhonline.edu.vn",
+	"author":[
+		{
+			"name":"Bui Quoc Huy",
+			"email":"kenny@qhonline.info",
+			"homepage":"http://www.qhonline.info"
+		}
+	],
+	"require":{
+		"monolog/monolog": "1.6.*@dev"
+	},
+	"autoload":{
+			"classmap":[
+				"App/Library"
+			]
+	}
+}
