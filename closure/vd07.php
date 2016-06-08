@@ -1,6 +1,8 @@
 <?php
 function demo(){
+	//lay tat ca cac doi so 
 	$params=func_get_args();
+	//dem tat cac cac doi so
 	echo func_num_args();
 	echo "<pre>";
 	print_r($params);

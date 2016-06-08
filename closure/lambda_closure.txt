@@ -1,4 +1,15 @@
 ﻿Lambda và Closure là 1 dạng hàm đặc biệt nó giúp người dùng giải quyết được bài toán cho phép người lập trình chủ động trong việc tạo nhanh một hàm vô định để giải quyết vấn đề mà không cần thiết phải tạo thủ công 1 hàm hoàn chỉnh. Thay vì người dùng phải định nghĩa hàm riêng để dùng thì ta có thể dùng Lambda và Closure để viết trực tiếp.
+
+	Lambda: là cách ta gán một function cho 1 biến
+	vd:
+	
+	Closure: được sử dụng khi ta muốn sử dụng một biến ngoài hàm để truyền vào trong hàm thông qua cú pháp use
+	Vd:
+	
+Điểm khác nhau giữa Lambda và closure
+	Đối với lambda, ta có thể truyền được biến như param, còn với closure không nhưng truyền được biến qua các param mà còn gọi được biến ngoài hàm
+
+Chú ý: biến ở ngoài hàm không bị thay đổi khi được xử lí ở trong hàm, muốn thay đổi biến ngoài hàm thì trong từ khóa "use" ta phải tham chiếu đến biến bằng cách thêm dấu & trước tên biến	
 function test(){
 	alert("Hello 123")
 }
