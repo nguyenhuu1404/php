@@ -1,0 +1,4 @@
+RewriteEngine on 
+
+RewriteRule ^test/([0-9]+)/([a-zA-Z0-9_-]+)/(.*).html$ /read.php?id=$1&cate=$2&title=$3 [L]
+

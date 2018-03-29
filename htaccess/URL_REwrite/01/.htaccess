@@ -1,0 +1,4 @@
+RewriteEngine on 
+
+RewriteRule ^test-thu-xem.jsp$ /test.php [L]
+

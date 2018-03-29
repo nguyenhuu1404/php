@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<book>
+	<title>PHP Toan Tap</title>
+	<author>Kenny</author>
+	<date>22/12/2012</date>
+	<info>
+		<chapter codeid='101'>
+			<chapter_title>PHP Can Ban</chapter_title>
+			<chapter_rating>Easy</chapter_rating>
+		</chapter>
+		<chapter codeid='201'>
+			<chapter_title>PHP Nang Cao</chapter_title>
+			<chapter_rating>Normal</chapter_rating>
+		</chapter>
+		<chapter codeid='301'>
+			<chapter_title>PHP &amp; Framework</chapter_title>
+			<chapter_rating>Hard</chapter_rating>
+		</chapter>	
+		
+	</info>
+</book>

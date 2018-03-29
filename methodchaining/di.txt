@@ -1,4 +1,6 @@
-﻿Method Chaining: Là kỹ thuật cho phép người lập trình triệu gọi cùng lúc nhiều phương thức, nó giúp tạo nhịp cầu giúp cô đọng mã lệnh và dễ dàng tương tác mở rộng trong ứng dụng. 
+﻿$this->db->get('user')->result_array();
+
+Method Chaining: Là kỹ thuật cho phép người lập trình triệu gọi cùng lúc nhiều phương thức, nó giúp tạo nhịp cầu giúp cô đọng mã lệnh và dễ dàng tương tác mở rộng trong ứng dụng. 
 
 Type Hinting: còn gọi là dữ liệu gợi ý là 1 nét đặc biệt trong nền tảng lập trình hướng đối tượng trong PHP. Bởi việc sử dụng nó, sẽ tạo ra sự ràng buộc tuyệt vời giữa đối số truyền vào với các phương thức, hàm trong ứng dụng. 
 

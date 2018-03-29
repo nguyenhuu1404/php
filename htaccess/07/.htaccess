@@ -1,0 +1,8 @@
+AuthUserFile F:\WebServer\AppServ\www\.htpasswd
+AuthGroupFile /dev/null
+AuthName "My Private Directory"
+AuthType Basic
+
+<Limit GET POST>
+require user admin
+</Limit>

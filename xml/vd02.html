@@ -1,0 +1,21 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script language="javascript">
+dom=new ActiveXObject("Microsoft.XMLDOM");
+dom.async=false;
+dom.load("vd.xml");
+chap2_title=dom.getElementsByTagName("chapter_title").item(1).firstChild.nodeValue;
+chap2=dom.getElementsByTagName("chapter").item(1);
+att2=chap2.getAttribute("codeid");
+document.write(chap2_title);
+document.write(att2);
+</script>
+</head>
+
+<body>
+	
+</body>
+</html>

@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www\.)?qhonline.info [NC]
+RewriteRule \.(jpg|jpeg|gif)$ http://qhonline.info/leecher.gif [NC,R,L]

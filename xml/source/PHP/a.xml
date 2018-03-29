@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<A>
+	<B ds="100">ABCD</B>
+	<C><![CDATA[
+	DEFI
+	]]></C>
+	<D>BCDEF</D>
+</A>

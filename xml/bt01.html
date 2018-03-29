@@ -1,0 +1,34 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<script language="javascript">
+dom=new ActiveXObject("Microsoft.XMLDOM");
+dom.async=false;
+dom.load("practiceDOM.xml");
+sal2=dom.getElementsByTagName("SALARY").item(1).firstChild.nodeValue;
+document.write("Cau 1: Luong cua nguoi quan ly kho: "+sal2 + "<br />");
+
+price1=dom.getElementsByTagName("PRICE").item(7).firstChild.nodeValue;
+document.write("Cau 2: Gia tien mon hang thu 2 cua khach thu 3: "+ price1 + "<br />");
+
+price2=dom.getElementsByTagName("QUANTITY").item(3).firstChild.nodeValue;
+document.write("Cau 3: So luong cua mon hang thu 1 cua khach hang thu 2 : "+ price2 +"<br />");
+
+info=dom.getElementsByTagName("EMPLOYEE").item(2);
+id=info.getAttribute("ID");
+name=dom.getElementsByTagName("NAME").item(2).firstChild.nodeValue;
+salary=dom.getElementsByTagName("SALARY").item(2).firstChild.nodeValue;
+position=dom.getElementsByTagName("POSITION").item(2).firstChild.nodeValue;
+document.write("Cau 4: Thong tin cua tu van vien: <br />");
+document.write("ID: "+ id +"<br />");
+document.write("Name: "+ name+"<br />");
+document.write("Position: "+position+"<br />");
+document.write("salary: "+salary);
+</script>
+</head>
+
+<body>
+</body>
+</html>
